@@ -1,57 +1,11 @@
-<section class="splide" aria-label="Splide Basic HTML Example">
+<section class="splide">
   <div class="splide__track">
     <ul class="splide__list">
-      <li class="splide__slide">
+      <li class="splide__slide" *ngFor="let id of imageLinks">
         <div class="card" style="width: 18rem">
           <img
-            src="https://img.seadn.io/files/26acc584174fb0981864c900047d33db.png"
+            src="https://img.seadn.io/files/{{ id }}.png"
             class="card-img-top"
-            alt="..."
-          />
-        </div>
-      </li>
-      <li class="splide__slide">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://img.seadn.io/files/f70985aa9945b63756a6eeef2a66b19d.png"
-            class="card-img-top"
-            alt="..."
-          />
-        </div>
-      </li>
-      <li class="splide__slide">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://img.seadn.io/files/47943008ca49feabdca3c9391c3b8f8a.png"
-            class="card-img-top"
-            alt="..."
-          />
-        </div>
-      </li>
-      <li class="splide__slide">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://img.seadn.io/files/adf9db21a43c9fd394dc89a0d647bec3.png"
-            class="card-img-top"
-            alt="..."
-          />
-        </div>
-      </li>
-      <li class="splide__slide">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://img.seadn.io/files/a9d3e037a470bfe3c367dc803480a848.png"
-            class="card-img-top"
-            alt="..."
-          />
-        </div>
-      </li>
-      <li class="splide__slide">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://img.seadn.io/files/66408741d426b4271f9f59df31a3bab4.png"
-            class="card-img-top"
-            alt="..."
           />
         </div>
       </li>
